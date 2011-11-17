@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DF982631474E2E4008E43ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982621474E2E4008E43ED /* UIKit.framework */; };
+		8DF982651474E2E4008E43ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982641474E2E4008E43ED /* Foundation.framework */; };
+		8DF982671474E2E4008E43ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982661474E2E4008E43ED /* CoreGraphics.framework */; };
+		8DF9826D1474E2E4008E43ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF9826B1474E2E4008E43ED /* InfoPlist.strings */; };
+		8DF9826F1474E2E4008E43ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF9826E1474E2E4008E43ED /* main.m */; };
+		8DF982731474E2E4008E43ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF982721474E2E4008E43ED /* AppDelegate.m */; };
+		8DF9827B1474E2E5008E43ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF9827A1474E2E5008E43ED /* SenTestingKit.framework */; };
+		8DF9827C1474E2E5008E43ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982621474E2E4008E43ED /* UIKit.framework */; };
+		8DF9827D1474E2E5008E43ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982641474E2E4008E43ED /* Foundation.framework */; };
+		8DF982851474E2E5008E43ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982831474E2E5008E43ED /* InfoPlist.strings */; };
+		8DF982881474E2E5008E43ED /* CalcEVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF982871474E2E5008E43ED /* CalcEVTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DF9827E1474E2E5008E43ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF982551474E2E4008E43ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF9825D1474E2E4008E43ED;
+			remoteInfo = CalcEV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DF9825E1474E2E4008E43ED /* CalcEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF982621474E2E4008E43ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DF982641474E2E4008E43ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DF982661474E2E4008E43ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DF9826A1474E2E4008E43ED /* CalcEV-Info.plist */ = {isa = PBXFileReference; path = "CalcEV-Info.plist"; sourceTree = "<group>"; };
+		8DF9826C1474E2E4008E43ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DF9826E1474E2E4008E43ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DF982701474E2E4008E43ED /* CalcEV-Prefix.pch */ = {isa = PBXFileReference; path = "CalcEV-Prefix.pch"; sourceTree = "<group>"; };
+		8DF982711474E2E4008E43ED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DF982721474E2E4008E43ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DF982791474E2E5008E43ED /* CalcEVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcEVTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF9827A1474E2E5008E43ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DF982821474E2E5008E43ED /* CalcEVTests-Info.plist */ = {isa = PBXFileReference; path = "CalcEVTests-Info.plist"; sourceTree = "<group>"; };
+		8DF982841474E2E5008E43ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DF982861474E2E5008E43ED /* CalcEVTests.h */ = {isa = PBXFileReference; path = CalcEVTests.h; sourceTree = "<group>"; };
+		8DF982871474E2E5008E43ED /* CalcEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcEVTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF9825B1474E2E4008E43ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF982631474E2E4008E43ED /* UIKit.framework in Frameworks */,
+				8DF982651474E2E4008E43ED /* Foundation.framework in Frameworks */,
+				8DF982671474E2E4008E43ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF982751474E2E4008E43ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF9827B1474E2E5008E43ED /* SenTestingKit.framework in Frameworks */,
+				8DF9827C1474E2E5008E43ED /* UIKit.framework in Frameworks */,
+				8DF9827D1474E2E5008E43ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF982531474E2E4008E43ED = {
+			isa = PBXGroup;
+			children = (
+				8DF982681474E2E4008E43ED /* CalcEV */,
+				8DF982801474E2E5008E43ED /* CalcEVTests */,
+				8DF982611474E2E4008E43ED /* Frameworks */,
+				8DF9825F1474E2E4008E43ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF9825F1474E2E4008E43ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF9825E1474E2E4008E43ED /* CalcEV.app */,
+				8DF982791474E2E5008E43ED /* CalcEVTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF982611474E2E4008E43ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF982621474E2E4008E43ED /* UIKit.framework */,
+				8DF982641474E2E4008E43ED /* Foundation.framework */,
+				8DF982661474E2E4008E43ED /* CoreGraphics.framework */,
+				8DF9827A1474E2E5008E43ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DF982681474E2E4008E43ED /* CalcEV */ = {
+			isa = PBXGroup;
+			children = (
+				8DF982711474E2E4008E43ED /* AppDelegate.h */,
+				8DF982721474E2E4008E43ED /* AppDelegate.m */,
+				8DF982691474E2E4008E43ED /* Supporting Files */,
+			);
+			path = CalcEV;
+			sourceTree = "<group>";
+		};
+		8DF982691474E2E4008E43ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DF9826A1474E2E4008E43ED /* CalcEV-Info.plist */,
+				8DF9826B1474E2E4008E43ED /* InfoPlist.strings */,
+				8DF9826E1474E2E4008E43ED /* main.m */,
+				8DF982701474E2E4008E43ED /* CalcEV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DF982801474E2E5008E43ED /* CalcEVTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF982861474E2E5008E43ED /* CalcEVTests.h */,
+				8DF982871474E2E5008E43ED /* CalcEVTests.m */,
+				8DF982811474E2E5008E43ED /* Supporting Files */,
+			);
+			path = CalcEVTests;
+			sourceTree = "<group>";
+		};
+		8DF982811474E2E5008E43ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DF982821474E2E5008E43ED /* CalcEVTests-Info.plist */,
+				8DF982831474E2E5008E43ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF9825D1474E2E4008E43ED /* CalcEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF9828B1474E2E5008E43ED /* Build configuration list for PBXNativeTarget "CalcEV" */;
+			buildPhases = (
+				8DF9825A1474E2E4008E43ED /* Sources */,
+				8DF9825B1474E2E4008E43ED /* Frameworks */,
+				8DF9825C1474E2E4008E43ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcEV;
+			productName = CalcEV;
+			productReference = 8DF9825E1474E2E4008E43ED /* CalcEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DF982781474E2E4008E43ED /* CalcEVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF9828E1474E2E5008E43ED /* Build configuration list for PBXNativeTarget "CalcEVTests" */;
+			buildPhases = (
+				8DF982741474E2E4008E43ED /* Sources */,
+				8DF982751474E2E4008E43ED /* Frameworks */,
+				8DF982761474E2E4008E43ED /* Resources */,
+				8DF982771474E2E4008E43ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF9827F1474E2E5008E43ED /* PBXTargetDependency */,
+			);
+			name = CalcEVTests;
+			productName = CalcEVTests;
+			productReference = 8DF982791474E2E5008E43ED /* CalcEVTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF982551474E2E4008E43ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8DF982581474E2E4008E43ED /* Build configuration list for PBXProject "CalcEV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DF982531474E2E4008E43ED;
+			productRefGroup = 8DF9825F1474E2E4008E43ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DF9825D1474E2E4008E43ED /* CalcEV */,
+				8DF982781474E2E4008E43ED /* CalcEVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF9825C1474E2E4008E43ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF9826D1474E2E4008E43ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF982761474E2E4008E43ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF982851474E2E5008E43ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DF982771474E2E4008E43ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF9825A1474E2E4008E43ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF9826F1474E2E4008E43ED /* main.m in Sources */,
+				8DF982731474E2E4008E43ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF982741474E2E4008E43ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF982881474E2E5008E43ED /* CalcEVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DF9827F1474E2E5008E43ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF9825D1474E2E4008E43ED /* CalcEV */;
+			targetProxy = 8DF9827E1474E2E5008E43ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DF9826B1474E2E4008E43ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DF9826C1474E2E4008E43ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DF982831474E2E5008E43ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DF982841474E2E5008E43ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DF982891474E2E5008E43ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DF9828A1474E2E5008E43ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF9828C1474E2E5008E43ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
+				INFOPLIST_FILE = "CalcEV/CalcEV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DF9828D1474E2E5008E43ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
+				INFOPLIST_FILE = "CalcEV/CalcEV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DF9828F1474E2E5008E43ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalcEV.app/CalcEV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
+				INFOPLIST_FILE = "CalcEVTests/CalcEVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DF982901474E2E5008E43ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalcEV.app/CalcEV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
+				INFOPLIST_FILE = "CalcEVTests/CalcEVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF982581474E2E4008E43ED /* Build configuration list for PBXProject "CalcEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF982891474E2E5008E43ED /* Debug */,
+				8DF9828A1474E2E5008E43ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF9828B1474E2E5008E43ED /* Build configuration list for PBXNativeTarget "CalcEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF9828C1474E2E5008E43ED /* Debug */,
+				8DF9828D1474E2E5008E43ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DF9828E1474E2E5008E43ED /* Build configuration list for PBXNativeTarget "CalcEVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF9828F1474E2E5008E43ED /* Debug */,
+				8DF982901474E2E5008E43ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DF982551474E2E4008E43ED /* Project object */;
+}

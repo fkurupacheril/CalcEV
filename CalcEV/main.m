@@ -3,7 +3,7 @@
 //  CalcEV
 //
 //  Created by Francis Kurupacheril on 11/16/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 __Altiora__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -13,6 +13,6 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CalcEVAppDelegate class]));
     }
 }

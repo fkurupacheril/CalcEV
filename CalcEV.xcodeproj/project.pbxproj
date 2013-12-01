@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0C9BAE1478300B000E7AC8 /* CalcEV_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C9BAD1478300B000E7AC8 /* CalcEV_57x57.png */; };
+		8D0C9BB014783010000E7AC8 /* CalcEV_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C9BAF14783010000E7AC8 /* CalcEV_114x114.png */; };
+		8D0C9BB2147831F6000E7AC8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C9BB1147831F6000E7AC8 /* Default@2x.png */; };
+		8D0C9BB4147831FA000E7AC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C9BB3147831FA000E7AC8 /* Default.png */; };
+		8D1A63531474EB7F006CAE2D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D1A63521474EB7F006CAE2D /* MainWindow.xib */; };
 		8DF982631474E2E4008E43ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982621474E2E4008E43ED /* UIKit.framework */; };
 		8DF982651474E2E4008E43ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982641474E2E4008E43ED /* Foundation.framework */; };
 		8DF982671474E2E4008E43ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982661474E2E4008E43ED /* CoreGraphics.framework */; };
@@ -18,6 +23,10 @@
 		8DF9827D1474E2E5008E43ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF982641474E2E4008E43ED /* Foundation.framework */; };
 		8DF982851474E2E5008E43ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982831474E2E5008E43ED /* InfoPlist.strings */; };
 		8DF982881474E2E5008E43ED /* CalcEVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF982871474E2E5008E43ED /* CalcEVTests.m */; };
+		8DF982961474E503008E43ED /* CalcEV.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982951474E503008E43ED /* CalcEV.png */; };
+		8DF982971474E503008E43ED /* CalcEV.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982951474E503008E43ED /* CalcEV.png */; };
+		8DF9829A1474E85A008E43ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982991474E85A008E43ED /* MainStoryboard.storyboard */; };
+		8DF9829B1474E85A008E43ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF982991474E85A008E43ED /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +40,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0C9BAD1478300B000E7AC8 /* CalcEV_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcEV_57x57.png; sourceTree = "<group>"; };
+		8D0C9BAF14783010000E7AC8 /* CalcEV_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcEV_114x114.png; sourceTree = "<group>"; };
+		8D0C9BB1147831F6000E7AC8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D0C9BB3147831FA000E7AC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D1A63521474EB7F006CAE2D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = CalcEV.xcodeproj/../../CalcEV_Backup/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 		8DF9825E1474E2E4008E43ED /* CalcEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF982621474E2E4008E43ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DF982641474E2E4008E43ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DF982661474E2E4008E43ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DF9826A1474E2E4008E43ED /* CalcEV-Info.plist */ = {isa = PBXFileReference; path = "CalcEV-Info.plist"; sourceTree = "<group>"; };
+		8DF9826A1474E2E4008E43ED /* CalcEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcEV-Info.plist"; sourceTree = "<group>"; };
 		8DF9826C1474E2E4008E43ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DF9826E1474E2E4008E43ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DF982701474E2E4008E43ED /* CalcEV-Prefix.pch */ = {isa = PBXFileReference; path = "CalcEV-Prefix.pch"; sourceTree = "<group>"; };
-		8DF982711474E2E4008E43ED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DF982701474E2E4008E43ED /* CalcEV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcEV-Prefix.pch"; sourceTree = "<group>"; };
+		8DF982711474E2E4008E43ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DF982721474E2E4008E43ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DF982791474E2E5008E43ED /* CalcEVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcEVTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF9827A1474E2E5008E43ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8DF982821474E2E5008E43ED /* CalcEVTests-Info.plist */ = {isa = PBXFileReference; path = "CalcEVTests-Info.plist"; sourceTree = "<group>"; };
+		8DF982821474E2E5008E43ED /* CalcEVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcEVTests-Info.plist"; sourceTree = "<group>"; };
 		8DF982841474E2E5008E43ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DF982861474E2E5008E43ED /* CalcEVTests.h */ = {isa = PBXFileReference; path = CalcEVTests.h; sourceTree = "<group>"; };
+		8DF982861474E2E5008E43ED /* CalcEVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcEVTests.h; sourceTree = "<group>"; };
 		8DF982871474E2E5008E43ED /* CalcEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcEVTests.m; sourceTree = "<group>"; };
+		8DF982951474E503008E43ED /* CalcEV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CalcEV.png; path = ../../CalcEV_Backup/CalcEV.png; sourceTree = "<group>"; };
+		8DF982991474E85A008E43ED /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../CalcEV_Backup/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,10 @@
 		8DF982531474E2E4008E43ED = {
 			isa = PBXGroup;
 			children = (
+				8D0C9BB3147831FA000E7AC8 /* Default.png */,
+				8D0C9BB1147831F6000E7AC8 /* Default@2x.png */,
+				8D0C9BAF14783010000E7AC8 /* CalcEV_114x114.png */,
+				8D0C9BAD1478300B000E7AC8 /* CalcEV_57x57.png */,
 				8DF982681474E2E4008E43ED /* CalcEV */,
 				8DF982801474E2E5008E43ED /* CalcEVTests */,
 				8DF982611474E2E4008E43ED /* Frameworks */,
@@ -107,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				8DF982711474E2E4008E43ED /* AppDelegate.h */,
+				8DF982991474E85A008E43ED /* MainStoryboard.storyboard */,
+				8D1A63521474EB7F006CAE2D /* MainWindow.xib */,
 				8DF982721474E2E4008E43ED /* AppDelegate.m */,
 				8DF982691474E2E4008E43ED /* Supporting Files */,
 			);
@@ -118,6 +140,7 @@
 			children = (
 				8DF9826A1474E2E4008E43ED /* CalcEV-Info.plist */,
 				8DF9826B1474E2E4008E43ED /* InfoPlist.strings */,
+				8DF982951474E503008E43ED /* CalcEV.png */,
 				8DF9826E1474E2E4008E43ED /* main.m */,
 				8DF982701474E2E4008E43ED /* CalcEV-Prefix.pch */,
 			);
@@ -214,6 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF9826D1474E2E4008E43ED /* InfoPlist.strings in Resources */,
+				8DF982961474E503008E43ED /* CalcEV.png in Resources */,
+				8DF9829A1474E85A008E43ED /* MainStoryboard.storyboard in Resources */,
+				8D1A63531474EB7F006CAE2D /* MainWindow.xib in Resources */,
+				8D0C9BAE1478300B000E7AC8 /* CalcEV_57x57.png in Resources */,
+				8D0C9BB014783010000E7AC8 /* CalcEV_114x114.png in Resources */,
+				8D0C9BB2147831F6000E7AC8 /* Default@2x.png in Resources */,
+				8D0C9BB4147831FA000E7AC8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF982851474E2E5008E43ED /* InfoPlist.strings in Resources */,
+				8DF982971474E503008E43ED /* CalcEV.png in Resources */,
+				8DF9829B1474E85A008E43ED /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +371,14 @@
 		8DF9828C1474E2E5008E43ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francis Kurupacheril (8H256K56ZH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francis Kurupacheril (8H256K56ZH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
 				INFOPLIST_FILE = "CalcEV/CalcEV-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7FD5E9BE-6C0F-4ECE-9E3E-C83340527F93";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7FD5E9BE-6C0F-4ECE-9E3E-C83340527F93";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -350,10 +386,14 @@
 		8DF9828D1474E2E5008E43ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Francis Kurupacheril";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Francis Kurupacheril";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalcEV/CalcEV-Prefix.pch";
 				INFOPLIST_FILE = "CalcEV/CalcEV-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1E7BCC55-00E5-45C2-87F3-464377399C87";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1E7BCC55-00E5-45C2-87F3-464377399C87";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -411,6 +451,7 @@
 				8DF9828D1474E2E5008E43ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DF9828E1474E2E5008E43ED /* Build configuration list for PBXNativeTarget "CalcEVTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +460,7 @@
 				8DF982901474E2E5008E43ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
